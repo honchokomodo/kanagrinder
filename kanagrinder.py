@@ -235,6 +235,6 @@ while weights_sum() > 0:
         print("correct!")
         entries[roll][2] //= 2
     else:
-        print(f"the answer was {entry[0]}")
+        print(f"the answer was {entry[1]}")
         entries[roll][2] *= 2
 
